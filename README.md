@@ -63,3 +63,84 @@ _이텔릭_
 target은 따로 지원하지 않는다고 함.
 
 # 이미지(Images)
+
+![대체텍스트](링크)
+
+![HEROPY](https://heropy.blog/css/images/logo.png)
+
+[![HEROPY](https://heropy.blog/css/images/logo.png)](https://heropy.blog/2020/10/31/snowpack/)
+
+# 인용문(BlockQuote)
+
+> 남의 말이나 글에서 직접 또는 간접으로 따온 문장.  
+> (네이버 국어사전)
+
+> 인용문을 작성하세요!
+>
+> > 중첩된 인용문
+> >
+> > > 중중첩된 인용문 1  
+> > > 중중첩된 인용문 2  
+> > > 중중첩된 인용문 3
+
+# 인라인(Inline) 코드 강조
+
+CSS에서 `background` 혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입할 수 있습니다.
+
+# 블록(block) 코드 강조
+
+```html
+<a href="https:www.naver.com" title="naver로 이동!" target="_blank">NAVER</a>
+```
+
+```css
+header {
+  height: 90px;
+}
+```
+
+```javascript
+function func() {
+  var a = "AAA";
+  return a;
+}
+```
+
+```bash
+  $ git commit -m 'Study Markdown'
+```
+
+```plaintext
+동해물과 백두산이 마르고 닳도록
+하느님이 보우하사 우리나라 만세
+```
+
+# 표(Table)
+
+position 속성
+
+| 값       |       의미        | 기본값 |
+| -------- | :---------------: | -----: |
+| static   |     기준 없음     |      O |
+| relative |     요소 자신     |      X |
+| absolute | 위치 상 부모 요소 |      X |
+| fixed    |      뷰포트       |      X |
+
+# 원시 HTML(Raw HTML)
+
+동해물과 <u>백두산</u>이 마르고 닳도록<br/>
+하느님이 보우하사 우리나라 만세
+
+<a href="https:www.naver.com" title="naver로 이동!" target="_blank">NAVER</a>
+
+---
+
+<img width="70" src="https://heropy.blog/css/images/logo.png)" alt="HEROPY" />
+
+# 수평선(Horizontl Rule)
+
+---
+
+---
+
+---
